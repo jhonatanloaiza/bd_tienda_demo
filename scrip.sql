@@ -17,3 +17,8 @@ create table categoria(
     id int primary key auto_increment,
     nombre varchar(100)
 );
+
+create table inventario (
+    id int primary key auto_increment,
+    cantidad int
+);
