@@ -13,3 +13,7 @@ values ("mause", 50),
 ("teclado", 80),
 ("monitor", 600);
 
+create table categoria(
+    id int primary key auto_increment,
+    nombre varchar(100)
+);
